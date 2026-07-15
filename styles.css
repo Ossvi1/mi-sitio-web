@@ -1,0 +1,215 @@
+/* GENERALES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* 1. MENÚ DE NAVEGACIÓN */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    border-bottom: 2px solid #ff4d4d;
+    background-color: #fff;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar nav a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+/* 2. SECCIÓN PRINCIPAL (HERO) */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e6f2ff;
+    padding: 60px 50px;
+    border-bottom: 2px solid #3366ff;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+    color: #111;
+}
+
+.hero-content p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.btn-hero {
+    display: inline-block;
+    background-color: #0056b3;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.hero-image {
+    max-width: 450px;
+    width: 100%;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
+/* 3. GALERÍA DE IMÁGENES */
+.gallery-section {
+    padding: 60px 50px;
+    text-align: center;
+    background-color: #ffffff;
+    border-bottom: 2px solid #2eb82e;
+}
+
+.gallery-section h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+.card-title {
+    padding: 12px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* 4. INTERACCIÓN CON JAVASCRIPT */
+.interaction-section {
+    padding: 50px 50px;
+    background-color: #f7f0fa;
+    border-bottom: 2px solid #8a2be2;
+    text-align: center;
+}
+
+.interaction-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.interaction-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.interaction-box {
+    background: #fff;
+    flex: 1;
+    min-width: 300px;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.interaction-box p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+#btn-cambiar {
+    background-color: #6a1b9a;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#btn-cambiar:hover {
+    background-color: #4a148c;
+}
+
+.interaction-image {
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+}
+
+.interaction-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: block;
+}
+
+/* 5. PIE DE PÁGINA */
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+    background-color: #f9f9f9;
+    border-top: 2px solid #ff9933;
+    font-size: 14px;
+    color: #555;
+}
+
+.main-footer a {
+    text-decoration: none;
+    color: #0056b3;
+}
+
+.footer-center a {
+    margin: 0 5px;
+    color: #0056b3;
+}
