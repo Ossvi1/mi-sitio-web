@@ -2,8 +2,8 @@
 
 # 🌟 ¡BIENVENIDO A MI PROYECTO WEB! 🌟
 
-<!-- TEXTO GIGANTE EN MOVIMIENTO AZUL CON ESTILO ESTELAR Y SOMBRA -->
-<marquee scrollamount="6" behavior="alternate" style="font-size: 36px; font-family: 'Courier New', Courier, monospace; font-weight: 900; color: #00d2ff; background: #0d1117; padding: 15px; border-radius: 12px; border: 3px dashed #8a2be2; box-shadow: 0px 0px 25px #0056b3, inset 0px 0px 15px #00d2ff; text-shadow: 3px 3px 6px #002244, 0 0 10px #00d2ff;">
+<!-- TEXTO GIGANTE EN MOVIMIENTO CONTINUO HACIA LA DERECHA CON EFECTO NEÓN GLITCH -->
+<marquee direction="right" behavior="scroll" scrollamount="7" style="font-size: 38px; font-family: 'Impact', 'Arial Black', sans-serif; font-weight: bold; color: #ff00ff; background: transparent; padding: 10px; text-shadow: 3px 3px 0px #00ffff, -2px -2px 0px #ff00ff, 0px 0px 10px #ff00ff;">
     🚀 ¡PROYECTO EN VIVO Y CORRIENDO AL 100%! 🔥
 </marquee>
 
