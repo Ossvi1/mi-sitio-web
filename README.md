@@ -2,8 +2,8 @@
 
 # 🌟 ¡BIENVENIDO A MI PROYECTO WEB! 🌟
 
-<!-- TEXTO EN MOVIMIENTO CON COLORES Y SOMBRA -->
-<marquee scrollamount="5" behavior="alternate" style="font-size: 24px; font-weight: bold; color: #ff4d4d; background: #1a1a1a; padding: 10px; border-radius: 10px; box-shadow: 5px 5px 15px rgba(138, 43, 226, 0.7); text-shadow: 2px 2px 4px #000000;">
+<!-- TEXTO GIGANTE EN MOVIMIENTO AZUL CON ESTILO ESTELAR Y SOMBRA -->
+<marquee scrollamount="6" behavior="alternate" style="font-size: 36px; font-family: 'Courier New', Courier, monospace; font-weight: 900; color: #00d2ff; background: #0d1117; padding: 15px; border-radius: 12px; border: 3px dashed #8a2be2; box-shadow: 0px 0px 25px #0056b3, inset 0px 0px 15px #00d2ff; text-shadow: 3px 3px 6px #002244, 0 0 10px #00d2ff;">
     🚀 ¡PROYECTO EN VIVO Y CORRIENDO AL 100%! 🔥
 </marquee>
 
